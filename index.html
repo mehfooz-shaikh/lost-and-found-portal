@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lost & Found Portal</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1><a href="index.html">Lost & Found</a></h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="view-items.php">View Items</a>
+        <a href="report-lost.php">Report Lost</a>
+        <a href="report-found.php">Report Found</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container hero-inner">
+      <h2>Find what you lost. Report what you found.</h2>
+      <p>Quickly report lost or found items and browse the latest listings.</p>
+      <div class="cta">
+        <a class="btn" href="report-lost.php">Report Lost</a>
+        <a class="btn ghost" href="report-found.php">Report Found</a>
+        <a class="btn" href="view-items.php">View Items</a>
+      </div>
+    </div>
+  </main>
+
+  <section class="container info">
+    <h3>How it works</h3>
+    <ol>
+      <li>Report a lost item or a found item using the forms.</li>
+      <li>Admins/users browse <strong>View Items</strong> to find matches.</li>
+      <li>Contact the reporter using the contact info they provided.</li>
+    </ol>
+  </section>
+
+  <footer class="footer">
+    <div class="container">© <?=new Date().getFullYear ? new Date().getFullYear() : '2025'?> Lost & Found Portal</div>
+  </footer>
+</body>
+</html>
